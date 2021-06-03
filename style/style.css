@@ -1,0 +1,35 @@
+@import "values/colors.css";
+@import "values/dimens.css";
+
+html, body {
+    min-height: 100%;
+}
+
+body {
+    background-image: linear-gradient(
+            var(--top-gradient-color),
+            var(--middle-gradient-color),
+            var(--bottom-gradient-color)
+    );
+}
+
+h1 {
+    font-size: var(--title-size);
+}
+
+p {
+    text-align: justify;
+    font-size: var(--paragraph-size);
+}
+
+#logo {
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+#container {
+    max-width: 970px;
+    margin: 0 auto 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}

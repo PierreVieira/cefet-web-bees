@@ -1,5 +1,6 @@
 @import "values/colors.css";
 @import "values/dimens.css";
+@import "links.css";
 
 html, body {
     min-height: 100%;
@@ -20,6 +21,10 @@ h1 {
 p {
     text-align: justify;
     font-size: var(--paragraph-size);
+}
+
+p:last-child {
+    text-align: right;
 }
 
 #container {
@@ -46,4 +51,8 @@ p.curiosidade img {
 .img-abelha {
     border-radius: 50%;
     border: 5px double var(--bee-border-color);
+}
+
+img:not([alt]) {
+    border: 2px solid red;
 }

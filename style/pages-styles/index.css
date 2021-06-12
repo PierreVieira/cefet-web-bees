@@ -1,4 +1,4 @@
-@import "values/colors.css";
+@import "../values/colors.css";
 
 body {
     margin-top: 0;
@@ -7,6 +7,10 @@ body {
 #logo {
     display: block;
     margin: 0 auto 0 auto;
-    padding: 25px;
+}
+
+header {
+    padding: 30px;
     background-color: var(--background-logo-color);
+    box-shadow: 4px 4px 4px #0003;
 }

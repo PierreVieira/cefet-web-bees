@@ -5,4 +5,9 @@
     --background-logo-color: rgba(255, 255, 255, 0.2);
     --curiosity-border-color: #f89e09;
     --bee-border-color: #ffd700;
+    /*links*/
+    --link-color: #0101bd;
+    --link-hover-color: #2929f8;
+    --link-active-color: #6363fc;
+    --link-visited-color: #6363fc;
 }

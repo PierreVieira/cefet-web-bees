@@ -1,0 +1,23 @@
+@import "values/colors.css";
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--link-hover-color);
+}
+
+a:active {
+    color: var(--link-active-color);
+}
+
+a:visited {
+    color: var(--link-visited-color);
+}
+
+a[href^="http"] {
+    background-color: gold;
+}

@@ -33,3 +33,17 @@ p {
     padding-left: 20px;
     padding-right: 20px;
 }
+
+.curiosidade {
+    background: url("../midia/imgs/favo-de-mel.png");
+    border: 1px solid var(--curiosity-border-color);
+    max-width: 70%;
+    margin: 0 auto 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+p.curiosidade img {
+    float: left;
+    margin-right: 20px;
+}

@@ -3,11 +3,10 @@ const ALTURA_ABELHA = 11;
 
 let abelhinhas = [];
 
-
 // função que cria uma abelhinha
 function Abelhinha(tempoAtrasoParaIniciar) {
   this.el = document.createElement('img');
-  this.el.src = 'imgs/abelha-voadora.gif';
+  this.el.src = 'midia/imgs/abelha-voadora.gif';
   this.el.style.width = LARGURA_ABELHA + 'px';
   this.el.style.position = 'fixed';
   this.el.style.bottom = '25vh';

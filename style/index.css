@@ -1,0 +1,12 @@
+@import "values/colors.css";
+
+body {
+    margin-top: 0;
+}
+
+#logo {
+    display: block;
+    margin: 0 auto 0 auto;
+    padding: 25px;
+    background-color: var(--background-logo-color);
+}

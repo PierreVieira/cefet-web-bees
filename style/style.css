@@ -22,13 +22,8 @@ p {
     font-size: var(--paragraph-size);
 }
 
-#logo {
-    display: block;
-    margin: 0 auto 0 auto;
-}
-
 #container {
-    max-width: 970px;
+    max-width: var(--max-width);
     margin: 0 auto 0 auto;
     padding-left: 20px;
     padding-right: 20px;
@@ -46,4 +41,9 @@ p {
 p.curiosidade img {
     float: left;
     margin-right: 20px;
+}
+
+.img-abelha {
+    border-radius: 50%;
+    border: 5px double var(--bee-border-color);
 }
